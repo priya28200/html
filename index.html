@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Management</title>
+    <style>
+        body {
+            font-family: 'Calibri', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px; 
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .car-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .car-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .car-details {
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Car Rental Management</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to Our Car Rental Service</h2>
+        <p>Explore our fleet of vehicles and choose the perfect car for your needs.</p>
+
+        <section>
+            <div class="car-card">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.5VvsDuVy0a6IbBkQa_g4XgHaEh&pid=Api&P=0&h=180" alt="Car 1" class="car-image">
+                <div class="car-details">
+                    <h3>Toyota Camry</h3>
+                    <ul>
+                        <li>Comfortable sedan</li>
+                        <li>Advanced features</li>
+                    </ul>
+                    <ol>
+                        <li>Year: 2022</li>
+                        <li>Engine: 2.5L</li>
+                        <li>Transmission: Automatic</li>
+                    </ol>
+                    <p>Rent: $50/day</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.swiRbnVrmiKdlXcPeBjJtwHaEK&pid=Api&P=0&h=180" alt="Car 2" class="car-image">
+                <div class="car-details">
+                    <h3>Honda CR-V</h3>
+                    <ul>
+                        <li>Spacious SUV</li>
+                        <li>Perfect for family trips</li>
+                    </ul>
+                    <ol>
+                        <li>Year: 2023</li>
+                        <li>Engine: 2.4L</li>
+                        <li>Transmission: CVT</li>
+                    </ol>
+                    <p>Rent: $60/day</p>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.XxuDGfcq0vtTnKSxiY0SfwHaE6&pid=Api&P=0&h=180" alt="Car 3" class="car-image">
+                <div class="car-details">
+                    <h3>Ford Mustang</h3>
+                    <ul>
+                        <li>Sporty and stylish convertible</li>
+                        <li>Perfect for a fun ride</li>
+                    </ul>
+                    <ol>
+                        <li>Year: 2021</li>
+                        <li>Engine: 5.0L V8</li>
+                        <li>Transmission: Manual</li>
+                    </ol>
+                    <p>Rent: $70/day</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Rental Management. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
